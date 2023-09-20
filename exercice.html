@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GENERATEUR DE CITATION</title>
+    <link rel="stylesheet" href="ex.css">
+</head>
+<body>
+    
+    <div class="titre">
+        <h2>GENERATEUR DE CITATION</h2> 
+    </div>
+    
+    <div class="btn">
+    <button onclick="idi()"> Generer</button>
+
+    <p id="list"></p>
+
+
+    <!-- <img src="d:\IMAGE\IMG-20230724-WA0012.jpg" alt="image" width="100px" height="100px"> -->
+    <div class="CITATION">
+    <script>
+        const cite =  ["La nature est là qui t'invite et qui t'aime. Plonge-toi dans son sein qu'elle t'ouvre toujours :LAMARTINE",
+            "La critique est la puissance des impuissants : LAMARTINE",
+
+            "La facilité avec laquelle nous renonçons, souvent, à notre culture ne s’explique que par notre ignorance de celle-ci, et non par une attitude progressiste adoptée en connaissance de cause : CHEIKH ANTA DIOP",
+        " le sucèe, c'est d'aller d'échec en échec sans perdre" ,
+
+        "Ma bouche sera la bouche des malheurs qui n'ont point de bouches. Ma voix la liberté de celles qui s'affaissent au cachot du désespoir : AIME CESAIRE",
+        "Tu es toi et je suis moi.Accepte-moi tel que je suis. Ne cherche pas à dénaturer mon identité et ma civilisation  : AIME CESAIRE",
+
+        "le seule moyen de faire du bon travail est d'aimer ce que vous faites",
+        "le bonheur est la clé du succées. Si vous aimez ce que vous faites",
+
+        "Une jeunesse mobilisée est dangereuse, une jeunesse mobilisée est une puissance qui effraye même les bombes atomiques : TOMAS SANKARA",
+        "la seule façon de faire du bonheur est d'aimer ce vous faites",
+
+        "Nous ne pouvons laisser à nos seuls ennemis d'hier et d'aujourd'hui le monopole de la pensée, de l'imagination et de la créativité ! : TOMAS SANKARA",
+        "le succée, c'est tomber sept fois et se relever huit"]
+        function idi(){
+    var randomIndex=Math.floor(Math.random()*cite.length); 
+    var randomcite=cite[randomIndex];
+    document.getElementById("list").innerHTML=""  +  randomcite;
+        }
+        
+    </script>
+   </div>
+
+</body>
+</html>

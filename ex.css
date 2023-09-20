@@ -1,0 +1,64 @@
+ 
+body{
+    background-image: url(bg.jpg);
+    background: #c42727;
+    background-image: linear-gradient(315deg, #c42727 0%, #c42727 100%);
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding-bottom: 20%;
+}
+.p{
+    display: block;
+    text-align: center;
+    padding-left: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    background-color: white;
+
+
+} 
+/* h2{
+    padding-top: -50%;
+    text-align: center;
+    padding-bottom: 60%;
+    padding-left: 15%; 
+} */
+.btn {
+    background-color: #03cae4;
+    padding: 30px;
+    margin-top: 20%;
+    padding-left: 20px;
+}
+
+/* button{
+    color: #fff;
+    border: none;
+    display: block;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 1.3rem; 
+     padding-top: 50px; 
+} */
+.titre{
+    text-align: center;
+    color: white;
+    margin-left: 50px;
+}
+.content{
+    color: white;
+}
+#list{
+    color: white;
+    text-transform: uppercase;
+}
+.citation{
+    text-align: center;
+margin-right: 100px;
+}
+
